@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChocoShop</title>
+     <!-- Lien vers le fichier CSS personnalisé -->
+    <link rel="stylesheet" href="styles.css">
+     <!-- Lien vers la bibliothèque de polices Font Awesome pour utiliser des icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+     <!-- Logo de l'entreprise -->
+    <header>
+        <h1> <span  style="color: chocolate;">Choco</span>Shop</h1>
+        <img src="/images/LOGO.jpg" alt=""  width="115px">
+       <!--la barre de navigation-->
+        <nav>
+            <a href="#">Accueil</a>
+            <a href="#">Produits</a>
+            <a href="panier.html">Panier <i  class="fa-solid fa-cart-shopping"></i></a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+ <!-- Texte d'accueil sur la page d'accueil -->
+    <section class="hero">
+        <h2>Bienvenue chez ChocoShop</h2>
+        <p>Découvrez nos délicieux chocolats!</p>
+    </section>
+     <!-- Section pour les produits populaires -->
+    <section class="products-section">
+        <h2> <span style="color: #8BA1BB;">Nos</span> Produits <span style="color:chocolate ;" >Populaires</span></h2>
+        <div class="product-container"> 
+             <!-- Chaque produit est contenu dans un div avec des attributs de nom et de prix -->
+            <div class="product-item" data-name="Chocolat " data-price="2500">
+                <img src="images/2.jpg" alt="Produit 1">
+                <h3>milka</h3>
+                <p>Prix : 2500 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="2200">
+                <img src="images/9.jpg" alt="Produit 2">
+                <h3>milka oreo</h3>
+                <p>Prix : 2200 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="2300">
+                <img src="images/10.jpg" alt="Produit 3">
+                <h3>milka</h3>
+                <p>Prix : 2300 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="4500">
+                <img src="images/13.jpg" alt="Produit 4">
+                <h3> ferrero rocher</h3>
+                <p>Prix : 4500 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="4200">
+                <img src="images/15.jpg" alt="Produit 5">
+                <h3>ferrero rocher</h3>
+                <p>Prix : 4200 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="2300">
+                <img src="images/20.jpg" alt="Produit 6">
+                <h3>kinder bueno</h3>
+                <p>Prix : 2300 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="3500">
+                <img src="images/28.jpg" alt="Produit 7">
+                <h3>M&Ms xxl BAG </h3>
+                <p>Prix : 3500 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="4200">
+                <img src="images/29.jpg" alt="Produit 8">
+                <h3>M&Ms chocolate candies </h3>
+                <p>Prix : 4200 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="3300">
+                <img src="images/35.jpg" alt="Produit 9">
+                <h3>TOBLERONE</h3>
+                <p>Prix : 3300 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <!-- Autres produits ici... -->
+        </div>
+    </section>
+     <!-- Section pour les produits originaux -->
+    <section class="products-section">
+        <h2> <span style="color: #8BA1BB;">Nos</span> Produits <SPan style="color: chocolate;">ORIGINAL</SPan></h2>
+        <div class="product-container">
+             <!-- Produit original avec les mêmes balises que les produits populaires -->
+            <div class="product-item" data-name="Chocolat " data-price="2500">
+                <img src="images/1.jpg" alt="Produit 10">
+                <h3>COFLER</h3>
+                <p>Prix : 2500 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="2200">
+                <img src="images/3.jpg" alt="Produit 11">
+                <h3>milka</h3>
+                <p>Prix : 2200 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="2300">
+                <img src="images/7.jpg" alt="Produit 12">
+                <h3>milka</h3>
+                <p>Prix : 2300 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="2650">
+                <img src="images/11.jpg" alt="Produit 13">
+                <h3>milka cookie</h3>
+                <p>Prix : 2650 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat au Lait" data-price="5500">
+                <img src="images/14.jpg" alt="Produit 14">
+                <h3>ferrero  collection </h3>
+                <p>Prix : 5500 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="2900">
+                <img src="images/17.jpg" alt="Produit 15">
+                <h3>Ferrero rocher ET Raffaelo GLACE </h3>
+                <p>Prix : 2900 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="2500">
+                <img src="images/23.jpg" alt="Produit 16">
+                <h3>kitkat orange</h3>
+                <p>Prix : 2500 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="2200">
+                <img src="images/24.jpg" alt="Produit 17">
+                <h3>kitkat  double cookies & cream </h3>
+                <p>Prix : 2200 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="2300">
+                <img src="images/25.jpg" alt="Produit 18">
+                <h3>kitkat caramel</h3>
+                <p>Prix : 2300 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="2500">
+                <img src="images/27.jpg" alt="Produit 19">
+                <h3>snickers </h3>
+                <p>Prix : 2500 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat" data-price="3200">
+                <img src="images/31.jpg" alt="Produit 20">
+                <h3>M&Ms DEVERTIDA DO BRASIL</h3>
+                <p>Prix : 3200 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="3300">
+                <img src="images/33.jpg" alt="Produit 21">
+                <h3>M&Ms yo crunch</h3>
+                <p>Prix : 3300 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="2300">
+                <img src="images/34.jpg "alt="Produit 22">
+                <h3>snickers</h3>
+                <p>Prix : 2300 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <!-- Autres produits originaux ici... -->
+        </div>
+    </section>
+
+<!-- Section pour les nouveautés -->
+    <section class="products-section">
+        <h2> <span style="color: #8BA1BB;">N</span>ouveau<SPan style="color: chocolate;">tés</SPan></h2>
+        <div class="product-container">
+            <!-- Produit nouveauté avec le même schéma -->
+            <div class="product-item" data-name="Chocolat " data-price="3600">
+                <img src="images/4.jpg" alt="Produit 23">
+                <h3>milka bubbly</h3>
+                <p>Prix : 3600 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="2700">
+                <img src="images/5.jpg" alt="Produit 24">
+                <h3>milka happy cow</h3>
+                <p>Prix : 2700 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="2800">
+                <img src="images/6.jpg" alt="Produit 25">
+                <h3>milka waves </h3>
+                <p>Prix : 2800 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="4600">
+                <img src="images/8.jpg" alt="Produit 26">
+                <h3> milka naps mix </h3>
+                <p>Prix : 4600 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="5700">
+                <img src="images/12.jpg" alt="Produit 27">
+                <h3>TOBLERONE</h3>
+                <p>Prix : 5700 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="3800">
+                <img src="images/16.jpg" alt="Produit 28">
+                <h3>raffaelo</h3>
+                <p>Prix : 3800 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat" data-price="4600">
+                <img src="images/18.jpg" alt="Produit 29">
+                <h3> kinder  schoko-bon</h3>
+                <p>Prix : 4600 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat Praliné" data-price="3700">
+                <img src="images/19.jpg" alt="Produit 30">
+                <h3>kinder joy</h3>
+                <p>Prix : 3700 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="5800">
+                <img src="images/21.jpg" alt="Produit 31">
+                <h3> TOBLERONE BOITE</h3>
+                <p>Prix : 5800 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="2600">
+                <img src="images/22.jpg" alt="Produit 32">
+                <h3>kitkat white  </h3>
+                <p>Prix : 2600 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="2700">
+                <img src="images/26.jpg" alt="Produit 33">
+                <h3>snickers almond</h3>
+                <p>Prix : 2700 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="5800">
+                <img src="images/30.jpg "alt="Produit 6">
+                <h3>M&Ms love</h3>
+                <p>Prix : 5800 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+            <div class="product-item" data-name="Chocolat " data-price="5800">
+                <img src="images/32.jpg "alt="Produit 6">
+                <h3>M&Ms milk chocolate </h3>
+                <p>Prix : 5800 FCA</p>
+                <button class="add-to-cart">Ajouter au Panier</button>
+            </div>
+           <!-- Autres nouveautés ici... -->
+        </div>
+    </section>
+    <!-- Inclusion du fichier JavaScript pour gérer les actions comme ajouter au panier -->
+    <script src="script.js"></script>
+    <!-- Pied de page -->
+    <footer>
+        <div class="footer-container">
+             <!-- Section "À propos" du site -->
+            <div class="footer-section about">
+                <h2>À propos</h2>
+                <p>Bienvenue sur notre site de e-commerce. Nous vous offrons les meilleurs produits aux meilleurs prix.</p>
+            </div>
+            <!-- Liens utiles du pied de page -->
+            <div class="footer-section links">
+                <h2>Liens Utiles</h2>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Mentions Légales</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <!-- Liens vers les réseaux sociaux -->
+            <div class="footer-section social">
+                <h2>Suivez-nous</h2>
+                <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                
+            </div>
+            <!-- Copyright avec l'année et le nom du site -->
+        </div>
+        <p>&copy;<span style="color: #8BA1BB;">2024 </span> ChocoShop. Tous droits réservés.</p>
+    </footer>
+   
+
+</body>
+
+</html>
+

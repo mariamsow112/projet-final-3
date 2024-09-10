@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <!-- Lien vers la feuille de style externe pour la mise en forme -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Centrage du contenu avec la balise <center> (peu recommandé, à remplacer par CSS pour un centrage plus moderne) -->
+     <center>
+
+        <!-- Titre principal de la page de formulaire -->
+    <h1 class="lis"> Veuillez soumettre vos cordonnees</h1>
+
+     <!-- Conteneur principal pour le formulaire d'inscription -->
+    <div class="form-container">
+
+          <!-- Sous-titre avec une partie colorée en vert -->
+     <h2><span style="color:green;">Ins</span>cription</h2>
+
+      <!-- Formulaire pour soumettre les informations utilisateur, envoie les données à l'URL spécifiée -->
+     <form action="/submit_form" method="post">
+
+        <!-- Groupe de champs pour entrer le nom -->
+         <div class="form-group">
+
+             <!-- Etiquette pour le champ Nom -->
+             <label for="name">Nom :</label>
+
+              <!-- Champ de saisie pour entrer le nom, obligatoire (required) -->
+             <input type="text" id="name" name="name" required>
+         </div>
+
+         <!-- Groupe de champs pour entrer l'adresse email -->
+         <div class="form-group">
+
+             <!-- Etiquette pour le champ Email -->
+             <label for="email">Email :</label>
+
+             <!-- Champ de saisie pour l'email avec validation automatique du format email -->
+             <input type="email" id="email" name="email" required>
+         </div>
+
+         <!-- Groupe de champs pour entrer le mot de passe -->
+         <div class="form-group">
+
+             <!-- Etiquette pour le champ Mot de passe -->
+             <label for="password">Mot de passe :</label>
+
+             <!-- Champ de saisie pour le mot de passe, le texte sera masqué -->
+             <input type="password" id="password" name="password" required>
+         </div>
+
+          <!-- Option pour s'abonner à la newsletter -->
+         <div class="form-group">
+
+             <!-- Checkbox pour s'abonner à la newsletter -->
+             <label for="newsletter">
+                 <input type="checkbox" id="newsletter" name="newsletter">
+                 S'abonner à la newsletter
+             </label>
+         </div>
+         <!-- Bouton pour soumettre le formulaire -->
+         <div class="form-group">
+             <button type="submit">S'inscrire</button>
+         </div>
+     </form>
+</section>
+</center>
+
+</body>
+</html>
